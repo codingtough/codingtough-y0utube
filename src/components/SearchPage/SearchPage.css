@@ -1,0 +1,30 @@
+.searchPage {
+  flex: 0.82;
+  background-color: #f9f9f9;
+  padding: 2rem 1% 0;
+}
+
+.searchPage__filter {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #9c9a9a;
+  cursor: pointer;
+}
+
+.searchPage__filter > .MuiSvgIcon-root {
+  font-size: 2rem;
+}
+
+.searchPage__filter > h2 {
+  margin-left: 1rem;
+  font-size: 1.6rem;
+}
+
+.searchPage hr {
+  height: 1px;
+  border: 0;
+  background-color: rgb(228, 228, 228);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
